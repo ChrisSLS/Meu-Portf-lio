@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+
+body{
+    background-color: #474a51;
+    font-family: 'IBM Plex Mono';
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+    margin-bottom: 80px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+
+#title{
+    font-weight: 400;
+    font-size: 28px;
+    width: 19%;
+    margin-left: 80px;
+    color: white;
+   
+}
+#title b{
+    color: rgb(228, 228, 228);
+    font-size: 35px;
+    font-family: 'Teko';
+    color: aqua;
+    
+}
+
+#mainLinks{
+    display: flex;
+    justify-content:space-between;
+    width: 27%;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 30px;
+    cursor: pointer;
+    height: 30px;
+    text-align: center;
+    
+}
+#mainLinks a{
+    padding: 0px 6px 0px 6px;
+}
+
+
+   
+     
+#mainLinks a:hover{
+    color:aqua;
+    font-size: 17px;
+    line-height: 30px;
+    border-radius: 5px;
+    padding: 0px 6px 0px 6px;
+    position: relative;
+    font-weight: 500;
+    } 
+
+#mainLinks a:hover::after{
+    width: 100%;
+    
+
+}
+
+#socialMedia{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    
+}
+
+#socialMedia a{
+    display: flex;
+    justify-content: space-around;
+    width: 23%;
+    font-weight: 300;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+#socialMedia img:hover{
+    width: 35px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    
+}
+
+ #mainLinks a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    transition: 0.3s ease-in-out;
+ }
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 130px 50px 100px;
+    font-family: 'Chakra Petch';
+    height: 300px;
+    margin-bottom: 200px;
+}
+
+section h2{
+    font-size: 35px;
+    font-weight: 300;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+    margin:0;
+}
+
+section h1{
+    font-size: 65px;
+    font-weight: 700;
+    margin-top:30px;
+    margin-bottom: 30px;
+    color: white;
+}
+section h3{
+    font-size: 17px;
+    margin-bottom: 100px;
+    color: rgb(196, 196, 196);
+}
+
+section a{
+    color: aqua;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+section a:hover{
+    font-size: 30px;
+    border-bottom: aqua solid 1px;
+}
+
+#perfilLogo{
+    border-radius: 200px;
+    border: white 5px solid;
+    background-color: aqua;
+}
+
+    
+
+
